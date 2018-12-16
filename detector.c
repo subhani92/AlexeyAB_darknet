@@ -1259,7 +1259,7 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         char *filebasename = dir->d_name;
         filename = concat(in_folder, dir->d_name);
         char *outputfilename = concat(out_folder,filebasename);
-        char *outputfilename_without_ext = remove_ext(filebasename);
+        char *outputfilename_without_ext = remove_ext(outputfilename);
 
         printf("Processing %s\n", filename);
         strncpy(input, filename, 256);
