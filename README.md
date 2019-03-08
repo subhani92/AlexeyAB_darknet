@@ -1,4 +1,7 @@
 # AlexeyAB_darknet
+Please refer to:
+https://github.com/pjreddie/darknet/issues/723
+
 
 Updated: Feb 20, 2019
 I added this function in the source code and resolve this problem with command:
